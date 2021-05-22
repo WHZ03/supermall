@@ -121,7 +121,6 @@ export default {
   },
   //组件挂载完之后调用
   mounted() {
-    console.log(this.$refs.aaa);
     //默认情况下Bscroll是不可以实时监听滚动位置的
     this.scroll = new BScroll(document.querySelector(".wrapper"), {
       //probe 侦测
